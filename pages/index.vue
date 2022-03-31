@@ -1,9 +1,10 @@
 <template>
-  <Tutorial />
+	<div>Главная страница</div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
-}
+	name: 'IndexPage',
+	middleware: 'authenticated'
+};
 </script>
